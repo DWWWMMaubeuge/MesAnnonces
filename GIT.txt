@@ -1,0 +1,89 @@
+cd Commande git bash (Framagit)
+cd projetGIT
+________________________________________________________________________
+
+
+(pour montrer les dossier )
+dir 
+
+
+recup le projet en https
+
+git clone https://framagit.org/caulier/site-cv.git
+
+(a faire d'entrée)
+cd D:/
+cd projetGIT
+cd site-cv (va dans le projet)
+
+________________________________________________________________________
+
+git status (montre le status du projet)
+
+git add . (prépare les fichiers modifier a être commité)
+
+git commit -m "Message d'envoi" (definit le commit et prépare le push)
+
+git push 
+
+git pull (MAJ le projet )
+
+________________________________________________________________________
+
+Les branches : 
+
+git branch feature/test (créer une branche avec le nom "feature/test" )*
+
+git checkout feature/test (va dans la branche créer)
+
+une fois les modif ok 
+
+git add .
+
+git commit -m "modif ok"*
+
+git push -u origin feature/test (push ta branche)
+
+________________________________________________________________________
+
+
+si tout fonctionne et que tu veux le mettre sur master 
+
+git checkout develop (toujours merge sur develop)
+
+git merge feature/test (envoi les modif effectuer sur feature test -> develop)
+
+git push 
+
+
+--------------------------------------------------------------------------
+
+cours 
+raccourcis
+mkdir test         = crée dossier test
+ls                 = regarde ce qui a dans le dossier
+cd                 = pour se déplacer dans les dossiers
+clear 		   = efface 
+touch  nom         = a faire si on fait un mkdir 
+git add nom
+git status         = pour voir
+git commit -m " sauvegarde"
+git push
+git clone          = copier dossier
+git pull           = retranscrit tout sur notre pc
+git checkOut       = permet de mieux transcrire + git push
+git init           = repo créer
+
+
+
+_ crer un Repo sur github
+_cloner le repo sur notre ordi
+_mettre les fichiers du projet dans le repo
+_git add *      git add --all         (ajoute ts les fichiers sur git)
+
+crt echap ou scap q
+
+
+
+
+
